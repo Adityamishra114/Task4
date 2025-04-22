@@ -11,7 +11,7 @@
   }
 
   body {
-    @apply bg-background text-foreground  py-2 sm:py-4 md:py-6;
+    @apply bg-background text-foreground ;
     font-family: "Playfair Display", serif;
   }
 }

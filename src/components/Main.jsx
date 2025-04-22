@@ -6,6 +6,7 @@ import green from "../assets/green.png";
 import red from "../assets/red.png";
 import idea from "../assets/idea.png";
 import background from "../assets/bg.png";
+import background1 from "../assets/bg1.png";
 import heart from "../assets/heart.png";
 import brain from "../assets/brain.png";
 import pancil from "../assets/pancil.png";
@@ -16,7 +17,7 @@ import who from "../assets/who.png";
 const Main = () => {
   return (
     <>
-      <div className="w-full bg-no-repeat bg-cover py-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-16">
+      <section className="w-full bg-no-repeat bg-cover py-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-16"style={{ backgroundImage: `url(${background1})` }}>
         <div className="max-w-7xl mx-auto flex flex-col gap-12">
           <div className="flex flex-col items-start gap-4 sm:gap-6">
             <img
@@ -144,7 +145,7 @@ const Main = () => {
             </button>
           </div>
         </div>
-      </div>
+      </section>
       <section
         className="w-full bg-no-repeat bg-cover bg-center py-16 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-16"
         style={{ backgroundImage: `url(${background})` }}
