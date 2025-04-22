@@ -18,7 +18,6 @@ const Main = () => {
     <>
       <div className="w-full bg-no-repeat bg-cover py-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-16">
         <div className="max-w-7xl mx-auto flex flex-col gap-12">
-          {/* Top Section */}
           <div className="flex flex-col items-start gap-4 sm:gap-6">
             <img
               src={tete}
@@ -38,8 +37,6 @@ const Main = () => {
               </span>
             </h2>
           </div>
-
-          {/* Definitions Section */}
           <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-16 text-center md:text-left text-sm max-w-6xl  px-4">
             <div className="md:w-1/2 max-w-xl">
               <p className="font-bold font-abril  text-lg md:text-xl">
@@ -67,7 +64,6 @@ const Main = () => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-10 md:gap-6 items-stretch justify-center text-center px-4 sm:px-6 lg:px-8 py-10">
-            {/* Card 1 */}
             <div className="flex-1 max-w-sm sm:max-w-md">
               <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full border-4 border-[#f39c12] mx-auto flex items-center justify-center">
                 <img
@@ -90,8 +86,6 @@ const Main = () => {
                 and care.
               </p>
             </div>
-
-            {/* Card 2 */}
             <div className="flex-1 max-w-sm sm:max-w-md">
               <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full border-4 border-[#29d000] mx-auto flex items-center justify-center">
                 <img
@@ -114,8 +108,6 @@ const Main = () => {
                 see the difference.
               </p>
             </div>
-
-            {/* Card 3 */}
             <div className="flex-1 max-w-sm sm:max-w-md">
               <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full border-4 border-[#ff0000] mx-auto flex items-center justify-center">
                 <img
@@ -137,16 +129,14 @@ const Main = () => {
               </p>
             </div>
           </div>
-
-          {/* Buttons Section */}
           <div className="flex flex-col sm:flex-row gap-4 mt-5 justify-center items-center sm:items-stretch">
-            <button className="bg-black text-white px-6 py-2 rounded-full text-sm sm:text-base tracking-wide transition-all hover:scale-105 duration-300 flex items-center gap-2">
+            <button className="bg-black text-white px-6 py-2 rounded-full text-sm sm:text-base  flex items-center gap-2">
               LEARN MORE
               <span className="bg-white text-black p-1 rounded-full flex items-center justify-center">
                 <ArrowRight className="w-2 h-2" />
               </span>
             </button>
-            <button className="bg-[#f39c12] text-white px-6 py-2 rounded-full text-sm sm:text-base tracking-wide transition-all hover:scale-105 duration-300 flex items-center gap-2">
+            <button className="bg-[#f39c12] text-white px-6 py-2 rounded-full text-sm sm:text-base flex items-center gap-2">
               CONTACT US
               <span className="bg-white text-black p-1 rounded-full flex items-center justify-center">
                 <ArrowRight className="w-2 h-2" />
@@ -160,7 +150,6 @@ const Main = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="max-w-7xl mx-auto flex flex-col gap-12">
-          {/* Heart Section */}
           <div className="flex flex-col md:flex-row justify-between items-center  md:text-left">
             <img
               src={heart}
@@ -180,8 +169,6 @@ const Main = () => {
             </div>
           </div>
           <div className="h-2 bg-[#8a034c] w-full -mt-[18px]" />
-
-          {/* Frequent Research Header */}
           <div className="flex flex-col items-start gap-4 sm:gap-6">
             <img
               src={who}
@@ -200,11 +187,8 @@ const Main = () => {
               </span>
             </h2>
           </div>
-
-          {/* Card Grid */}
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
-            {/* Card 1 */}
-            <div className="bg-white rounded-xl shadow-md w-full flex flex-col  border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white rounded-xl shadow-md w-full flex flex-col  border border-gray-100">
               <div className="h-48 flex items-center justify-center border-b border-gray-300 p-4">
                 <img
                   src={pancil}
@@ -225,9 +209,7 @@ const Main = () => {
                 </p>
               </div>
             </div>
-
-            {/* Card 2 */}
-            <div className="bg-white rounded-xl shadow-md w-full flex flex-col  border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white rounded-xl shadow-md w-full flex flex-col  border border-gray-100 ">
               <div className="h-48 flex items-center justify-center border-b border-gray-300 p-4">
                 <img
                   src={handshake}
@@ -252,9 +234,7 @@ const Main = () => {
                 </p>
               </div>
             </div>
-
-            {/* Card 3 */}
-            <div className="bg-white rounded-xl shadow-md w-full flex flex-col  border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white rounded-xl shadow-md w-full flex flex-col  border border-gray-100 ">
               <div className="h-48 flex items-center justify-center border-b border-gray-300 p-4">
                 <img
                   src={arrow1}
